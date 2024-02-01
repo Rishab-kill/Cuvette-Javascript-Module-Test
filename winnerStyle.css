@@ -1,0 +1,91 @@
+*{
+    background-color: rgb(109, 194, 12);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wContainer{
+    position:relative;
+}
+.trophy-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    padding:20px;
+}
+.trophy-star {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width:80%;
+    position:relative;
+}
+.star-img{
+    width:600px;
+}
+.trophy{
+    position:absolute;
+    top:45%;
+}
+.wStatement{
+    font-size:40px;
+    color:white;
+}
+.wReplay{
+    width:180px;
+    height:40px;
+    background-color: white;
+    color:grey;
+    font-size: 20px;
+    border-radius: 15px;
+    border:1px solid white;
+}
+.trophy-rules{
+    position:absolute;
+    border:2px solid white;
+    color:white;
+    right:3%;
+    top:90%;
+    width:120px;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    cursor:default;
+}
+.rules-box{
+    position:absolute;
+    top:35%;
+    right:3%;
+    z-index:1;
+    display:none;
+}
+.disappear-rules-box{
+    position:absolute;
+    top:30%;
+    right:1.5%;
+    width: 70px; /* Diameter = 2 * radius */
+    height: 70px; /* Diameter = 2 * radius */
+    background-color: red; /* Circle color */
+    border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+    border:5px solid white;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    z-index:2;
+}
+.cut{
+    margin:0;
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:white;
+    cursor:default;
+}

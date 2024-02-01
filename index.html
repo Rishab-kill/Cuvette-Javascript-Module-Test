@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-Paper-Sicssor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="game">
+            <div class="scoreAndHeading-box">
+                <div class="heading-box">
+                    <h1 class="heading">Rock<br> Paper<br> Sicssors</h1>
+                </div>
+                <div class="score-box">
+                    <div class="user-score">
+                        <p class=" back-color score-text text1">YOUR</p>
+                        <p class=" back-color score-text text2">SCORE</p>
+                        <h1 class=" back-color score-num">0</h1>
+                    </div>
+                    <div class="computer-score">
+                        <p class=" back-color score-text text1">COMPUTER</p>
+                        <p class=" back-color score-text text2">SCORE</p>
+                        <h1 class=" back-color score-num">0</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="stone-paper-sicssor-box">
+                <div class="side1"></div>
+                <div class="side2"></div>
+                <div class="side3"></div>
+                <div class=" circle circle1">
+                    <img class="rock" src="rock.png" alt="Rock Image">
+                </div>
+                <div class="circle circle2">
+                    <img  class="paper" src="scissor.png" alt="Scissor Image">
+                </div>
+                <div class="circle circle3">
+                    <img  class="scissor" src="paper.png" alt="Paper Image">
+                </div>
+            </div>
+            <div class="result-box"></div>
+        </div>
+        <div class="disappear-rules-box" id="disappear-rules-box">
+            <p class="cut">X</p>
+        </div>
+        <div class="rules-box" id="rules-box">
+            <img  class="rules-box-img" src="rules.png" alt="Rules Image">
+        </div>
+        <div class="rules-button" id="rules-button">
+           <p class="rules-text-button">RULES</p>
+        </div>
+        <div class="next-page">
+            <div class="rules-button2" id="rules-button2">
+                <p class="rules-text-button2">RULES</p>
+             </div>
+             <div class="next-button" id="next-button">
+                <p class="next-text-button">NEXT</p>
+             </div>
+        </div>
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
